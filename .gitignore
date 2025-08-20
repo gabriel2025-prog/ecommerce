@@ -1,0 +1,28 @@
+# Archivos basura de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Miniaturas
+._*
+
+# Carpetas del sistema
+.Spotlight-V100
+.Trashes
+
+# Archivos de sistema de volumen
+ehthumbs.db
+Thumbs.db
+
+# Logs y backups
+*.log
+*.bak
+*.tmp
+*.swp
+
+# Node.js (si llegas a usar npm más adelante)
+node_modules/
+npm-debug.log
+
+# Entornos
+.env
