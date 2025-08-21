@@ -19,6 +19,7 @@ header {
     display: grid;
     grid-template-columns: 260px 1fr;
     min-height: calc(100vh - 80px);
+    background-color: #f4f4f4;
 }
 
 /* Sidebar */
@@ -41,10 +42,15 @@ header {
     color: #444;
 }
 
+.Stock {
+    color: rgb(233, 204, 204);
+    /*font-weight: bold;*/
+}
+
 /* Sección de productos */
 .productos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: auto auto auto;
     gap: 20px;
     padding: 20px;
 }
